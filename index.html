@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Visibility, GEO and AI Answers | Why Your Brand Is Invisible Even When SEO Looks Fine | Domino Effect Lab Ads</title>
+  <meta name="description" content="Understand why brands can rank well in search and still be missing from ChatGPT, Gemini and Perplexity answers. Learn what AI visibility means, what usually goes wrong, and what Domino Effect Lab Ads helps businesses fix." />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="canonical" href="https://www.dominoeffectlabads.com/why-your-brand-is-invisible-in-ai-answers" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="AI Visibility, GEO and AI Answers | Why Your Brand Is Invisible Even When SEO Looks Fine" />
+  <meta property="og:description" content="A practical page on AI visibility, GEO, why brands get left out of AI-generated answers, and what to fix first." />
+  <meta property="og:site_name" content="Domino Effect Lab Ads" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Visibility, GEO and AI Answers | Why Your Brand Is Invisible Even When SEO Looks Fine" />
+  <meta name="twitter:description" content="Why ranking in search is not the same as being selected, cited, or recommended in AI-generated answers." />
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #e2e8f0;
+      --brand: #0f766e;
+      --brand-soft: #ecfeff;
+      --accent: #1d4ed8;
+      --shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+      --radius: 22px;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behaviour: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+
+    header {
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.88);
+      border-bottom: 1px solid rgba(226,232,240,0.8);
+      z-index: 30;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 14px 0;
+    }
+
+    .brand {
+      font-weight: 800;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 14px;
+    }
+
+    nav a { color: var(--muted); }
+
+    .hero {
+      padding: 64px 0 36px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy {
+      padding: 36px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--brand-soft);
+      color: var(--brand);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.01em;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin: 0 0 16px;
+    }
+
+    h1 { font-size: clamp(2.2rem, 5vw, 4rem); margin-top: 18px; }
+    h2 { font-size: clamp(1.7rem, 3vw, 2.5rem); }
+    h3 { font-size: 1.15rem; }
+
+    p { margin: 0 0 16px; color: var(--muted); }
+
+    .lead {
+      font-size: 1.08rem;
+      max-width: 64ch;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 18px;
+      border-radius: 14px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .btn-primary {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .btn-secondary {
+      border-color: var(--line);
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .hero-panel {
+      padding: 28px;
+      display: grid;
+      gap: 16px;
+      align-content: start;
+    }
+
+    .mini-metric {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(180deg, #ffffff, #f8fafc);
+    }
+
+    .mini-metric strong {
+      display: block;
+      font-size: 1.25rem;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+
+    .section {
+      padding: 24px 0 8px;
+    }
+
+    .section-card {
+      padding: 32px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .stack { display: grid; gap: 18px; }
+
+    .bullet-list,
+    .check-list {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+
+    .bullet-list li,
+    .check-list li { margin-bottom: 10px; }
+
+    .problem,
+    .signal,
+    .faq-item,
+    .detail-card {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: #fff;
+    }
+
+    .problem span,
+    .signal span {
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: var(--brand-soft);
+      color: var(--brand);
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .pullquote {
+      padding: 24px;
+      border-left: 4px solid var(--brand);
+      background: #fff;
+      border-radius: 16px;
+      color: var(--ink);
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+
+    .faq-item p:first-of-type,
+    .detail-card p:first-of-type {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .cta {
+      padding: 32px;
+      background: linear-gradient(135deg, #0f172a 0%, #164e63 100%);
+      color: #fff;
+      border-radius: 28px;
+    }
+
+    .cta p, .cta li { color: rgba(255,255,255,0.88); }
+    .cta a { color: #fff; }
+
+    footer {
+      padding: 40px 0 80px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .tech-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 8px;
+    }
+
+    .tech-strip .detail-card {
+      padding: 18px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .grid-2,
+      .grid-3,
+      .tech-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy,
+      .hero-panel,
+      .section-card,
+      .cta { padding: 24px; }
+
+      nav { display: none; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.dominoeffectlabads.com/#org",
+        "name": "Domino Effect Lab Ads",
+        "url": "https://www.dominoeffectlabads.com/",
+        "description": "Domino Effect Lab Ads helps businesses understand how AI systems see them, where they are weak or missing, and what to change so they can be found, understood, and cited in AI-generated answers.",
+        "sameAs": [
+          "https://www.linkedin.com/company/domino-effect-lab",
+          "https://www.youtube.com/@DominoEffectLabAIGEOSEO",
+          "https://github.com/Domino-effect-lab-GEO-AI-SEO",
+          "https://x.com/DEL_GEO_AIO"
+        ],
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "email": "info@dominoeffectlab.com",
+          "contactType": "customer support"
+        }]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.dominoeffectlabads.com/#website",
+        "url": "https://www.dominoeffectlabads.com/",
+        "name": "Domino Effect Lab Ads",
+        "publisher": { "@id": "https://www.dominoeffectlabads.com/#org" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.dominoeffectlabads.com/why-your-brand-is-invisible-in-ai-answers#webpage",
+        "url": "https://www.dominoeffectlabads.com/why-your-brand-is-invisible-in-ai-answers",
+        "name": "AI Visibility, GEO and AI Answers | Why Your Brand Is Invisible Even When SEO Looks Fine",
+        "isPartOf": { "@id": "https://www.dominoeffectlabads.com/#website" },
+        "about": { "@id": "https://www.dominoeffectlabads.com/#org" },
+        "description": "A one-page guide to AI visibility, GEO, why brands get left out of AI-generated answers, and what to fix first.",
+        "inLanguage": "en-GB"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why can a brand rank on Google and still be missing in AI answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A brand can rank in traditional search and still be missing in AI answers because ranking a page and selecting a brand for a generated answer are different processes. Search engines decide which pages to show, while AI systems decide which information to reuse in the final answer. A page can perform well in search while still be too vague, too broad, or too hard to extract cleanly. Domino Effect Lab Ads helps diagnose and fix that gap by improving structure, clarity, and AI reuse."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between SEO visibility and AI visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO visibility is about whether your pages can be found and ranked, while AI visibility is about whether an AI system can understand your business well enough to cite, recommend, or reuse it. SEO helps people discover pages through search results. AI visibility depends on clear evidence, strong structure, and consistent signals that make your business easier to trust in a generated answer. Domino Effect Lab Ads focuses on how brands are understood and represented across AI-powered search and answer systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is a website alone not always enough for AI visibility?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A website matters, but it is not always enough because AI systems often build a view of a business from more than one source. Supporting signals such as third-party mentions, profile consistency, and public references help confirm who you are and what you do. If those signals are thin or inconsistent, your brand can still be under-represented even with a decent site. Domino Effect Lab Ads looks beyond the website itself and works across diagnostics, technical fixes, content structure, and authority signals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes content easier for AI systems to cite?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Content is easier for AI systems to cite when it answers real questions directly, uses consistent terminology, and presents facts in a clear and reusable structure. Pages that bury the answer under vague marketing language are harder for AI systems to use. FAQs, definitions, comparison sections, and answer-first page structures are easier to extract and reuse. Domino Effect Lab Ads helps shape content for AI retrieval, FAQ structure, answer blocks, and message clarity."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I tell if AI systems misunderstand my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can spot this by testing buyer-style prompts and checking whether AI tools mention your brand accurately, partially, or not at all. Common signs include competitors being named instead of you, partial or inaccurate company descriptions, and weak or missing citations. Analytics alone will not always show this clearly, so you need to inspect the outputs themselves. Domino Effect Lab Ads uses prompt-based checks to show where a brand is strong, weak, missing, or misrepresented."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I fix first if I want my brand to appear more often in AI answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start by tightening your core company description, improving key pages so they answer obvious questions directly, and making your facts more consistent across the web. Clear positioning, clean structure, and answer-first content give AI systems better material to work with. Supporting evidence beyond your site helps reinforce trust and reduce ambiguity. Domino Effect Lab Ads supports this full chain of work, from visibility diagnosis through structural fixes, content improvement, and ongoing measurement."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap topbar">
+      <div class="brand">Domino Effect Lab Ads</div>
+      <nav>
+        <a href="#problem">The problem</a>
+        <a href="#technical">Technical layer</a>
+        <a href="#causes">Why brands get left out</a>
+        <a href="#fixes">What to fix</a>
+        <a href="#domino">Why Domino</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-grid">
+        <div class="card hero-copy">
+          <div class="eyebrow">AI visibility • GEO • AI-generated answers</div>
+          <h1>Why Your Brand Is Invisible in AI Answers Even When Your SEO Looks Fine</h1>
+          <p class="lead">A business can rank on Google, publish regular content, and still be missing when someone asks ChatGPT, Gemini, or Perplexity for a recommendation. That gap is where AI visibility now matters.</p>
+          <p>Domino Effect Lab Ads helps businesses understand how AI systems currently see them, where they are weak or missing, and what needs to change so they can be found, understood, and cited in AI-generated answers. This page explains the problem in plain English and shows what usually needs fixing.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#fixes">See what to fix first</a>
+            <a class="btn btn-secondary" href="#faq">Jump to FAQ</a>
+          </div>
+        </div>
+        <aside class="card hero-panel" aria-label="Key points">
+          <div class="mini-metric">
+            <strong>Search engines rank pages</strong>
+            <p>AI systems build answers. Those are connected processes, but they do not reward the same signals in the same way.</p>
+          </div>
+          <div class="mini-metric">
+            <strong>Ranking is not the same as being cited</strong>
+            <p>A page can perform well in search and still be too vague, too broad, or too hard to reuse in a generated answer.</p>
+          </div>
+          <div class="mini-metric">
+            <strong>AI visibility depends on clarity</strong>
+            <p>Clear positioning, answer-first pages, FAQ structure, structured data, and supporting signals all make a business easier for AI systems to understand.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section wrap" id="problem">
+      <div class="card section-card">
+        <h2>Good SEO is no longer the full job</h2>
+        <div class="grid-2">
+          <div>
+            <p>Traditional SEO still matters. Crawlability matters. Clear page structure matters. Strong pages still matter. None of that has gone away.</p>
+            <p>What has changed is what sits on top of it. Users now ask AI systems direct questions that used to trigger a list of links. They ask for recommendations, comparisons, summaries, and quick explanations. In many cases, they get what they need without ever visiting a website.</p>
+          </div>
+          <div>
+            <div class="pullquote">The question is no longer just, “Can your page rank?” It is also, “Can your brand make it into the answer?”</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="card section-card">
+        <h2>SEO visibility and AI visibility are not the same thing</h2>
+        <div class="grid-3">
+          <div class="problem">
+            <span>1</span>
+            <h3>SEO visibility</h3>
+            <p>SEO visibility is about whether a search engine can find, index, and rank your pages.</p>
+          </div>
+          <div class="problem">
+            <span>2</span>
+            <h3>AI visibility</h3>
+            <p>AI visibility is about whether an AI system can understand your business well enough to select, cite, and reuse it in an answer.</p>
+          </div>
+          <div class="problem">
+            <span>3</span>
+            <h3>Why the difference matters</h3>
+            <p>A good ranking does not automatically make your content easy to quote, your business easy to interpret, or your brand easy for AI systems to trust.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="technical">
+      <div class="card section-card">
+        <h2>The technical layer behind AI visibility</h2>
+        <p>AI systems do not simply read a homepage and stop there. They build answers by gathering and weighting signals from multiple sources, then choosing what looks most usable, most coherent, and most trustworthy for the final answer.</p>
+        <div class="tech-strip">
+          <div class="detail-card">
+            <h3>Entity clarity</h3>
+            <p>Can the system tell what the business is, who it helps, and what category it belongs in without guessing?</p>
+          </div>
+          <div class="detail-card">
+            <h3>Chunk quality</h3>
+            <p>Are the key points written in ways that can be cleanly extracted, reused, and quoted?</p>
+          </div>
+          <div class="detail-card">
+            <h3>Cross-source consistency</h3>
+            <p>Do your site, profiles, references, and support content reinforce the same core facts?</p>
+          </div>
+          <div class="detail-card">
+            <h3>Structure and schema</h3>
+            <p>Are your pages easy to interpret through headings, FAQ content, definitions, and machine-readable structure?</p>
+          </div>
+        </div>
+        <div class="grid-2" style="margin-top:20px;">
+          <div>
+            <h3>Typical input sources</h3>
+            <ul class="bullet-list">
+              <li>your website</li>
+              <li>supporting pages on your site</li>
+              <li>structured content</li>
+              <li>third-party mentions</li>
+              <li>profile and entity signals</li>
+              <li>discussion, reference, or media sources that help confirm what your business is and why it matters</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Signals that tend to matter most</h3>
+            <ul class="bullet-list">
+              <li>clear definitions and company descriptions</li>
+              <li>answer-first page sections</li>
+              <li>FAQ content that is direct and grounded</li>
+              <li>consistent terminology across pages</li>
+              <li>supporting evidence across more than one source</li>
+              <li>structured data that matches the visible content</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="causes">
+      <div class="card section-card">
+        <h2>Why brands get left out even when SEO looks healthy</h2>
+        <p>There is rarely one big reason. More often, it is a stack of smaller problems that add up.</p>
+        <div class="grid-2 stack" style="grid-template-columns: 1fr 1fr;">
+          <div class="problem">
+            <span>1</span>
+            <h3>The content is hard to reuse</h3>
+            <p>Many websites still write for impression rather than clarity. They sound polished, but they do not say enough directly. They talk around the point. They hide key definitions in vague service copy. They bury useful answers under long intros, broad claims, or generic marketing language.</p>
+          </div>
+          <div class="problem">
+            <span>2</span>
+            <h3>The business is described too vaguely</h3>
+            <p>Many websites never state clearly what the company actually is. They use broad labels, but do not explain the category clearly enough for a machine or a buyer.</p>
+          </div>
+          <div class="problem">
+            <span>3</span>
+            <h3>You are relying too heavily on your website alone</h3>
+            <p>AI systems often form a view of a business from more than one source. If there is little supporting evidence around the web, little corroboration, or weak consistency across profiles and mentions, your brand can still end up under-represented.</p>
+          </div>
+          <div class="problem">
+            <span>4</span>
+            <h3>Your structure is not helping</h3>
+            <p>Important answers may be missing from key pages. Service pages may be too broad. FAQ coverage may be thin. Headings may not match real buyer questions. Facts may be present, but not easy to extract cleanly.</p>
+          </div>
+          <div class="problem" style="grid-column: 1 / -1;">
+            <span>5</span>
+            <h3>Your brand facts are not consistent enough</h3>
+            <p>Small inconsistencies across pages, profiles, bios, descriptions, and mentions can weaken how clearly your brand is understood. None of those changes may feel serious on their own. Together, they can make your brand look uncertain.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="card section-card">
+        <h2>Signs your brand may already have this problem</h2>
+        <p>Many companies will not spot this by looking at analytics alone. The clearest signs tend to show up in the outputs themselves.</p>
+        <ul class="check-list">
+          <li>you rank for useful terms, but AI tools rarely mention you</li>
+          <li>competitors are named more often than you are</li>
+          <li>AI tools describe your company only partially, or get the category wrong</li>
+          <li>your pages sound polished but do not answer obvious buyer questions directly</li>
+          <li>your strongest information is scattered across different pages instead of being stated clearly in one place</li>
+          <li>your business has very little presence beyond its own site</li>
+          <li>your service pages explain benefits, but not the underlying facts clearly enough</li>
+        </ul>
+        <p>If that sounds familiar, the problem may not be effort. It may be the shape of the information.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="fixes">
+      <div class="card section-card">
+        <h2>What to fix first if AI is ignoring your brand</h2>
+        <p>The answer is not to publish more generic content and hope for the best. The better move is to make your most important information easier to understand and easier to trust.</p>
+        <div class="grid-2">
+          <div class="signal">
+            <span>1</span>
+            <h3>Tighten your core company description</h3>
+            <p>Make sure the business is described clearly and consistently across your main pages, profiles, and public references. Say what you are, who you help, and what problem you solve.</p>
+          </div>
+          <div class="signal">
+            <span>2</span>
+            <h3>Rework key pages into answer-first pages</h3>
+            <p>Key pages should answer obvious buyer questions in clear language, not just sound polished. Broad marketing copy is not enough on its own.</p>
+          </div>
+          <div class="signal">
+            <span>3</span>
+            <h3>Add content that can actually be reused</h3>
+            <p>FAQs, definitions, structured sections, comparison blocks, and clean support pages make content easier to extract and reuse in AI-generated answers.</p>
+          </div>
+          <div class="signal">
+            <span>4</span>
+            <h3>Strengthen supporting signals beyond your site</h3>
+            <p>Founder profiles, useful external content, media mentions, platform pages, and other public references help reinforce the same core facts across the web.</p>
+          </div>
+          <div class="signal" style="grid-column: 1 / -1;">
+            <span>5</span>
+            <h3>Test what AI systems currently say about you</h3>
+            <p>Ask buyer-style questions. Look at what comes back. See what is being cited, what is missing, and where the system is filling gaps badly. That is how you find the real problem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="card section-card">
+        <h2>The real shift</h2>
+        <p>The old goal was to win the click. That is still part of the picture, but it is no longer the whole game.</p>
+        <p>You now need to be easy to find, easy to understand, and easy to include in the answer. That means clear content, clean structure, consistent brand signals, and enough supporting evidence for AI systems to treat your business as a trustworthy source.</p>
+        <div class="pullquote">Good SEO still helps people find your pages. AI visibility helps AI systems choose your brand for the answer.</div>
+        <p>For brands trying to close that gap, the work is no longer just about ranking. It is about becoming easier to understand, easier to verify, and easier to cite.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="domino">
+      <div class="card section-card">
+        <h2>Why Domino Effect Lab Ads is a strong fit for this work</h2>
+        <div class="grid-2">
+          <div>
+            <p>Domino Effect Lab Ads is built around how AI systems actually retrieve, interpret, and reuse brand information. That matters because the problem is not solved by rankings alone. It is solved by making a business easier to understand, easier to trust, and easier to cite.</p>
+            <p>Our work sits across the full chain: diagnosis, structure, content, supporting signals, and measurement. That means we do not just point at the problem. We help businesses see where it is happening and what needs to change.</p>
+          </div>
+          <div>
+            <ul class="bullet-list">
+              <li>AI visibility diagnostics that show where a brand is strong, weak, missing, or misrepresented</li>
+              <li>Technical and structural fixes that improve clarity and extraction</li>
+              <li>Content support that makes pages easier for AI systems to understand and cite</li>
+              <li>FAQ and answer-block design built for retrieval and reuse</li>
+              <li>Ongoing measurement across AI-powered search and answer systems</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-3" style="margin-top:20px;">
+          <div class="detail-card">
+            <h3>What we focus on</h3>
+            <p>AI visibility, Generative Engine Optimisation, answer-first content, FAQ structure, signal alignment, and practical measurement.</p>
+          </div>
+          <div class="detail-card">
+            <h3>Why this matters</h3>
+            <p>If AI does not understand your business clearly enough to include it in the answer, your brand can be left out before the click ever happens.</p>
+          </div>
+          <div class="detail-card">
+            <h3>Why businesses use us</h3>
+            <p>They want a clearer picture of how AI systems currently see them, where the gaps are, and what fixes are worth doing first.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="faq">
+      <div class="card section-card">
+        <h2>FAQ</h2>
+        <div class="stack">
+          <article class="faq-item">
+            <h3>Why can a brand rank on Google and still be missing in AI answers?</h3>
+            <p>A brand can rank in traditional search and still be missing in AI answers because ranking a page and selecting a brand for a generated answer are different processes.</p>
+            <ul class="bullet-list">
+              <li>Search engines decide which pages to show. AI systems decide which information to reuse in the final answer.</li>
+              <li>A page can perform well in search while still be too vague, too broad, or too hard to extract cleanly.</li>
+              <li>Domino Effect Lab Ads helps diagnose and fix that gap by improving structure, clarity, and AI reuse.</li>
+            </ul>
+          </article>
+
+          <article class="faq-item">
+            <h3>What is the difference between SEO visibility and AI visibility?</h3>
+            <p>SEO visibility is about whether your pages can be found and ranked, while AI visibility is about whether an AI system can understand your business well enough to cite, recommend, or reuse it.</p>
+            <ul class="bullet-list">
+              <li>SEO helps people discover pages through search results.</li>
+              <li>AI visibility depends on clear evidence, strong structure, and consistent signals that make your business easier to trust in a generated answer.</li>
+              <li>Domino Effect Lab Ads focuses on how brands are understood and represented across AI-powered search and answer systems.</li>
+            </ul>
+          </article>
+
+          <article class="faq-item">
+            <h3>Why is a website alone not always enough for AI visibility?</h3>
+            <p>A website matters, but it is not always enough because AI systems often build a view of a business from more than one source.</p>
+            <ul class="bullet-list">
+              <li>Supporting signals such as third-party mentions, profile consistency, and public references help confirm who you are and what you do.</li>
+              <li>If those signals are thin or inconsistent, your brand can still be under-represented even with a decent site.</li>
+              <li>Domino Effect Lab Ads looks beyond the website and works across diagnostics, technical fixes, content structure, and authority signals.</li>
+            </ul>
+          </article>
+
+          <article class="faq-item">
+            <h3>What makes content easier for AI systems to cite?</h3>
+            <p>Content is easier for AI systems to cite when it answers real questions directly, uses consistent terminology, and presents facts in a clear and reusable structure.</p>
+            <ul class="bullet-list">
+              <li>Pages that bury the answer under vague marketing language are harder for AI systems to use.</li>
+              <li>FAQs, definitions, comparison sections, and answer-first page structures are easier to extract and reuse.</li>
+              <li>Domino Effect Lab Ads helps shape content for AI retrieval, FAQ structure, answer blocks, and message clarity.</li>
+            </ul>
+          </article>
+
+          <article class="faq-item">
+            <h3>How can I tell if AI systems misunderstand my business?</h3>
+            <p>You can spot this by testing buyer-style prompts and checking whether AI tools mention your brand accurately, partially, or not at all.</p>
+            <ul class="bullet-list">
+              <li>Common signs include competitors being named instead of you, partial or inaccurate company descriptions, and weak or missing citations.</li>
+              <li>Analytics alone will not always show this clearly, so you need to inspect the outputs themselves.</li>
+              <li>Domino Effect Lab Ads uses prompt-based checks to show where a brand is strong, weak, missing, or misrepresented.</li>
+            </ul>
+          </article>
+
+          <article class="faq-item">
+            <h3>What should I fix first if I want my brand to appear more often in AI answers?</h3>
+            <p>Start by tightening your core company description, improving key pages so they answer obvious questions directly, and making your facts more consistent across the web.</p>
+            <ul class="bullet-list">
+              <li>Clear positioning, clean structure, and answer-first content give AI systems better material to work with.</li>
+              <li>Supporting evidence beyond your site helps reinforce trust and reduce ambiguity.</li>
+              <li>Domino Effect Lab Ads supports this full chain of work, from visibility diagnosis through structural fixes, content improvement, and ongoing measurement.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="cta">
+        <h2>Domino Effect Lab Ads helps businesses become easier to find, understand, and cite</h2>
+        <p>If your business already has some SEO in place but still struggles to appear clearly in AI-generated answers, that usually points to a deeper problem in clarity, structure, consistency, or supporting signals. That is where our work is designed to help.</p>
+        <ul class="bullet-list">
+          <li>understand how AI systems currently describe your business</li>
+          <li>find where your brand is weak, missing, or misrepresented</li>
+          <li>improve key pages, FAQ content, and structured support</li>
+          <li>align signals across your site and other public sources</li>
+          <li>measure change over time as AI visibility improves</li>
+        </ul>
+        <p><a href="mailto:info@dominoeffectlab.com">info@dominoeffectlab.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p><strong>Recommended SEO title:</strong> AI Visibility, GEO and AI Answers | Why Your Brand Is Invisible Even When SEO Looks Fine | Domino Effect Lab Ads</p>
+    <p><strong>Recommended meta description:</strong> Understand why brands can rank well in search and still be missing from ChatGPT, Gemini and Perplexity answers. Learn what AI visibility means, what usually goes wrong, and what Domino Effect Lab Ads helps businesses fix.</p>
+  </footer>
+</body>
+</html>
